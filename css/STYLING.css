@@ -1,0 +1,118 @@
+/* fonts */
+/* .titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+ */
+
+body{
+  font-family: "Titillium Web", sans-serif;
+    background-color: #24353F;
+    color: white;
+}
+.container{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17A2B8;
+    font-weight: 600;
+}
+#email{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 7px;
+
+}
+#password{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 7px;
+
+}
+#username{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 7px;
+
+}
+#SignUpEmail{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 7px;
+
+}
+#SignUpPassword{
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 7px;
+
+}
+span{
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}

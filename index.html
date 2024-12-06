@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/STYLING.css">
+</head>
+<body>
+    
+        <!-- Sign-In / Sign-Up -->
+    <div class=" vh-100 d-flex justify-content-center align-items-center " id="Form">
+
+        <div class="container text-center w-50 d-flex flex-column justify-content-center align-items-center p-5  ">
+            <h2 class>Smart Login System</h2>
+            <input type="email" name="email" id="email" class=" w-100 input py-2 my-2 px-2 text-white" placeholder="Enter Your Email">
+            <input type="password" name="password" id="password" class=" w-100 input py-2 my-2 px-2 text-white" placeholder="Enter Your Password">
+            <input type="text" name="email" id="username" class=" w-100 input py-2 my-2 d-none  px-2 text-white " placeholder="Enter Your Name">
+            <input type="email" name="email" id="SignUpEmail" class=" w-100 input py-2 my-2 d-none  px-2 text-white " placeholder="Enter Your Email">
+            <input type="password" name="email" id="SignUpPassword" class=" w-100 input py-2 my-2 d-none  px-2 text-white " placeholder="Enter Your Password">
+            <button id="LoginBut" class="btn btn-outline-info w-100 px-2">Login</button>
+            <button id="SignUpBut" class="btn btn-outline-info w-100 d-none px-2">Sign Up</button>
+            <p class="text-success my-3 d-none SuccessStatment">Success</p>
+            <p class="mt-2 SignUpStat">Don't have an account?
+                <span id="SignUpLink" class=" text-white">Sign Up</span>
+            </p>
+            <p class="mt-2 d-none SignInStat">You have an account ?
+                <span id="SignInLink" class=" text-white">Sign In</span>
+            </p>
+        </div>
+
+    </div>
+
+        <!-- Home -->
+        
+       <div id="HomeMain" class="d-none">
+         <nav class="navbar navbar-expand-lg  w-100 shadow">
+            <div class="container-fluid ">
+                <a class="navbar-brand text-white" href="#">Smart Login</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"> </span>
+                </button>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-warning" id="logoutBut" type="submit">Log Out</button>
+                </form>
+            </div>
+          </nav>  
+            <div id="homeHeight" class="d-flex justify-content-center align-items-center  ">
+                <div id="home" class="container text-center w-75 ">
+                    <h1 class="display-1"></h1> 
+                </div>
+            </div>
+       </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/MAIN.js"></script>
+</body>
+</html>
